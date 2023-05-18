@@ -27,33 +27,14 @@ def RockPaperScissors():
         print("Invalid input.")
         RockPaperScissors()
     
-    if playerinput == urmom:
-        print("You done be committed to a tie...")
-        PlayAgain()
-    elif playerinput == "rock" and urmom == "paper":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Computer Wins.")
-        PlayAgain()
-    elif playerinput == "paper" and urmom == "rock":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Player Wins.")
-        PlayAgain()
-    elif playerinput == "scissors" and urmom == "rock":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Computer Wins.")
-        PlayAgain()
-    elif playerinput == "rock" and urmom == "scissors":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Player Wins.")
-        PlayAgain()
-    elif playerinput == "paper" and urmom == "scissors":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Computer Wins.")
-        PlayAgain()
-    elif playerinput == "scissors" and urmom == "paper":
-        print(f'Player Choice: {playerinput}! \nComputer choice: {urmom}!')
-        print("Player Wins.")
-        PlayAgain()
+    print(f"Your choice: {playerinput}\nComputer's choice: {urmom}")
+    if playerinput == "rock" and urmom == "paper" or playerinput == "scissors" and urmom == "rock" or playerinput == "paper" and urmom == "rock":
+        print("You win!")
+
+    else:
+        print("You lose!")
+    
+    PlayAgain()
 
     
         
