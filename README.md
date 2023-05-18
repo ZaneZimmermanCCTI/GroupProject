@@ -1,5 +1,5 @@
 No external python modules are being utilized
-All you need is Python 3.10 or 3.11
+All you need is Python 3.10 or higher
 
 Instructions******************
 1. run "main.py"
