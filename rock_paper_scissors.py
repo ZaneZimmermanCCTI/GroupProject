@@ -6,6 +6,9 @@ def PlayAgain():
         RockPaperScissors()
     elif pin == "n" or pin == "N":
         print("returning to main menu...")
+    else:
+        print("Invalid Response")
+        PlayAgain()
      
 def RockPaperScissors():
     urmom = r.randint(1,3) 
