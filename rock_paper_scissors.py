@@ -28,7 +28,7 @@ def RockPaperScissors():
         RockPaperScissors()
     
     print(f"Your choice: {playerinput}\nComputer's choice: {urmom}")
-    if playerinput == "rock" and urmom == "paper" or playerinput == "scissors" and urmom == "rock" or playerinput == "paper" and urmom == "rock":
+    if playerinput == "rock" and urmom == "scissors" or playerinput == "scissors" and urmom == "paper" or playerinput == "paper" and urmom == "rock":
         print("You win!")
 
     else:
