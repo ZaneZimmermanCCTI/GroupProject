@@ -30,6 +30,9 @@ def RockPaperScissors():
     print(f"Your choice: {playerinput}\nComputer's choice: {urmom}")
     if playerinput == "rock" and urmom == "scissors" or playerinput == "scissors" and urmom == "paper" or playerinput == "paper" and urmom == "rock":
         print("You win!")
+    
+    elif playerinput == urmom:
+        print("Looks like it's a tie...")
 
     else:
         print("You lose!")
