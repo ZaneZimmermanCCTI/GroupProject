@@ -2,7 +2,7 @@
 #it run
 import madlibs as m
 import rock_paper_scissors as r
-import guess_the_number as g
+from guess_the_number import Gooberville as g
 import time as t
 
 def pa():
@@ -25,7 +25,7 @@ def GetGame():
         m.madlibmain()
         pa()
     elif fc == '2':
-        g.GTN()
+        g().GTN()
         pa()
     elif fc == '3':
         r.RockPaperScissors()
