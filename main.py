@@ -25,7 +25,7 @@ def GetGame():
         m.madlibmain()
         pa()
     elif fc == '2':
-        g.oof()
+        g.GTN()
         pa()
     elif fc == '3':
         r.RockPaperScissors()
